@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    
+    
+}
+.top-nav{
+    box-shadow: 0px 6px 30px lightcyan;
+}
+.top-nav .row{
+justify-content: space-between;
+align-items: center;
+text-align: center;
+color: white;
+}
+a{
+    color:white;
+}
+.navbar{
+    box-shadow: 0px 6px 30px aquamarine;
+}
+.navbar .nav-link:hover{
+    border-radius: 50px;
+    background-color: lightslategray;
+}
+
+.navbar-brand img{
+    border-radius: 50px;
+}
+ .nav-link{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: bold;
+}
+.jumbotron .row{
+ text-align: left;
+ padding: 100px;
+ font-style: italic;
+color:rgba(23, 122, 99, 0.806);
+
+}
+.jumbotron .row button{
+font-weight: 800;
+font-size: larger;
+}
+.carousel-caption{
+    margin-bottom: 100px;
+    color:darkorchid;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+}
+section{
+    padding-top: 95px;
+    padding-bottom:50px;
+}
+#Product .card{
+    align-items: center;
+    text-align: center;
+    color: brown;
+    background-color:darkkhaki;
+}
+#Product .card img{
+    height: 30rem;
+}
+#Menu .card{
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+#Menu .card img{
+    height: 30rem;
+    
+    }
+    #Gallery .card img{
+        height: 30rem;
+
+    }
+    #Login img{
+        height: 50rem;
+        width: 40rem;
+        background-color: blueviolet;
+    }
+    form{
+        width: 100%;
+        text-align: left;
+        margin:10px 50px;
+        padding: 5px;
+        border-style:outset ;
+        background-color: aquamarine;
+        border-color:black;
+        border-radius: 5px;
+    }
+    #Contact{
+        
+        margin-bottom: 50rem;
+    }
+    h1{
+        
+            font-style: oblique;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            }
+       h2{
+        color: deeppink;
+        font-style: italic;
+        font-family:'Times New Roman', Times, serif;
+
+       }
